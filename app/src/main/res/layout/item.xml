@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/product_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Nombre del Producto"/>
+
+    <TextView
+        android:id="@+id/product_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Precio: $15000"/>
+
+    <TextView
+        android:id="@+id/product_stock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stock: 10"/>
+
+    <TextView
+        android:id="@+id/product_replenishment_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reabastecer en: 2024-10-30"/>
+
+    <TextView
+        android:id="@+id/product_replenish_qty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cantidad a reabastecer: 15"/>
+
+    <TextView
+        android:id="@+id/product_limited_edition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edición limitada"
+        android:visibility="gone"/>
+
+</LinearLayout>

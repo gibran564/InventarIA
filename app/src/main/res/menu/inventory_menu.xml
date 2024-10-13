@@ -1,9 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
+
     <item
-        android:id="@+id/action_add"
-        android:title="Dar de alta" />
+        android:id="@+id/action_scan"
+        android:title="Escanear"
+        android:icon="@mipmap/ic_scan"
+        android:showAsAction="ifRoom" />
+
     <item
-        android:id="@+id/action_restock"
-        android:title="Reabastecer" />
+        android:id="@+id/action_alerts"
+        android:title="Mis Alertas"
+        android:icon="@mipmap/ic_alert"
+        android:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_search"
+        android:title="Buscar"
+        android:icon="@mipmap/ic_search"
+        android:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_all_products"
+        android:title="Todos mis productos"
+        android:icon="@mipmap/ic_all"
+        android:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_low_stock"
+        android:title="Productos con existencias bajas"
+        android:icon="@mipmap/ic_low_stock"
+        android:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_temp_products"
+        android:title="Productos Temporales"
+        android:icon="@mipmap/ic_temp_products"
+        android:showAsAction="ifRoom" />
+
 </menu>

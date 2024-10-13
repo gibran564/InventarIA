@@ -2,6 +2,7 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     id("com.google.gms.google-services")
+    id ("kotlin-parcelize")
 }
 
 android {
@@ -50,7 +51,6 @@ dependencies {
     androidTestImplementation(libs.androidx.espresso.core)
 
     val camerax_version = "1.3.4"
-    val ktor_version = "3.0.0"
 
     // CameraX libraries
     implementation("androidx.camera:camera-camera2:${camerax_version}")
@@ -62,12 +62,16 @@ dependencies {
     // ML Kit para escaneo de códigos de barras o QR
     implementation ("com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1")
 
-
-
     // Firebase dependencies
     implementation(platform("com.google.firebase:firebase-bom:33.4.0"))
     implementation("com.google.firebase:firebase-analytics")
 
     // Material Design
     implementation("com.google.android.material:material:1.9.0")
+
+    implementation("com.fasterxml.jackson.module:jackson-module-kotlin:2.15.0")
+
+    implementation("com.android.volley:volley:1.2.1")
+
+    implementation ("androidx.fragment:fragment-ktx:1.6.1")
 }
